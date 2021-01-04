@@ -1,0 +1,143 @@
+/* global */
+.heading-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+    margin: 50px;
+}
+/* global */
+body{
+    background-color:#f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 78px;
+    background-color:#35424a;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo{
+    color: #fff;
+    font-family: 'Audiowide', cursive;
+    font-size: 22px;
+    float: left;
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+.header .menu {
+    float: right;
+    margin-right: 70px;
+}
+
+.header .menu a{
+    margin-right: 15px;
+    color: #fff;
+    float: right;
+    font-family: 'Audiowide', cursive;
+    font-size: 16px;
+    text-decoration: none;
+}
+.header .menu a:hover{
+    color: #e8491d;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #e8491d;
+    margin-top: 70px;
+    position: fixed;
+    z-index: 999;
+}
+
+/* Newsletter */
+#newsletter{
+    padding: 59px;
+    color: #ffffff;
+    background: #35424a;
+    position: relative;
+    top: 72px;
+    height: 48px;
+  }
+  
+#newsletter h1{
+    float:left;
+}
+  
+#newsletter form {
+    float:right;
+    margin-top:15px;
+}
+  
+#newsletter input{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+#newsletter button{
+    color: #fff;
+    background-color: #e8491d;
+    border: none;
+    height: 30px;
+}
+
+/*about*/
+#main-col{
+    float:left;
+    width:65%;
+    position: relative;
+    top: 90px;
+  }
+#about{
+    padding: 20px;
+    width: 90%;
+}
+  /* txtbox*/
+
+.txt{
+    background: #35424a;
+    color: #fff;
+    margin: 6px 22px 0 auto;
+    padding: 14px;
+}
+
+aside#txtbox{
+    float:right;
+    color: #fff;
+    padding: 10px;
+    width:30%;
+    margin-top: 115px;
+    background: #35424a;
+    
+  }
+  
+  
+
+
+
+  /*footer*/
+
+footer{
+    background-color: #e8491d;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    margin-top: 29rem;
+}
+
+footer p{
+    position: relative;
+    top: 50px;
+}

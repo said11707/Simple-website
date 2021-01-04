@@ -1,0 +1,38 @@
+/* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav a{
+        background-color: #0000;
+
+    }
+
+
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box{
+      float:left;
+      text-align:center;
+      width:100%;
+      
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+    #banner h1{
+      margin-top:40px;
+    }
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+      
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+     
+    }
+  }
